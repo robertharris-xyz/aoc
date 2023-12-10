@@ -17,7 +17,7 @@ where P: AsRef<Path>, {
 }
 
 fn main() {
-    let input_file_path = "./data/input.txt"
+    let input_file_path = "./data/input.txt";
 
     let sum_part1 = part1(input_file_path);
     let sum_part2 = part2(input_file_path);
